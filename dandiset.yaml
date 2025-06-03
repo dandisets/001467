@@ -3,9 +3,11 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.9/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: Funded by the Epilepsy Foundation Innovation Institute
 assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
@@ -32,6 +34,7 @@ description: 'The My Seizure Gauge project is a multicenter effort to build an o
   9 Dexcom glucose traces with 171 seizures; and 3 Equivital belt recordings with
   4 seizures. This amounts to 994 EEG-verified seizure events across 270 device-specific
   datasets.'
+ethicsApproval: []
 id: DANDI:001467/draft
 identifier: DANDI:001467
 license:
@@ -39,8 +42,10 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001467/versions/draft/assets/
 name: My Seizure Gauge In-hospital Wearable Recordings
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
 url: https://dandiarchive.org/dandiset/001467/draft
 version: draft
+wasGeneratedBy: []
